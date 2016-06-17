@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Rye|Noto+Sans:400,400italic,700,700italic);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #085AA1;
+	background-size: cover;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: #08A13F;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+section {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+main {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+#wrapper {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+/*header nav{*/
+	/*float: right;*/
+/*}*/
+h1{
+	font-size: 70px;
+	color: #08A13F;
+	padding: 20px;
+}
+h1, h2{
+	font-family: 'Rye', cursive;
+}
+section img{
+	display: block;
+	margin: 0 auto;
+}
+p {
+	width: 750px;
+}
+ol{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+li a:after{
+	content: ",";
+}
+img{
+	width: 30%;
+}
+a{
+	text-decoration: none;
+	color: #09AB71;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: underline;
+	color: #098BAB;
+}
+.sitename {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+/*footer{*/
+	/*margin-top: 30px;*/
+	/*text-align: center;*/
+/*}*/
+.social{
+	width: 40px;
+	padding: 10px;
+	margin-top: 10px;
+}
+.search{
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+}
+
+#slogan{
+	font-style: italic;
+	text-align: center;
+}
